@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e6fbf1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #fcfe92;
+    color: #3a6986;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    font-weight: bolder;
+    padding: 2%;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+.contenido-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    margin-left: 6%;
+}
+
+.titulos{
+    color: aliceblue;
+    margin-left: 2%;
+    text-decoration: underline;
+    
+}
+
+.principal{
+    margin-top: 5%;
+}
+
+.otros {
+    padding-bottom: 6%;
+}
+
+.repositorio {
+    padding: 5%;
+    color: #f4f5dd;
+    background-color: #346e95;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 13rem;
+    margin: 10%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-break: break-all;
+    height: 90%;
+}
+
+.info h2{
+    margin-bottom: 5%;
+}
+
+.info h3{
+    margin-top: -4%;
+}
+
+.info p{
+    margin-top: -4%;
+}
+
+.link {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #f1fc61;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: #d1dd60;
+} 
+
+.datos{
+    height: 70%;
+}
